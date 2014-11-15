@@ -37,21 +37,21 @@ syn match ibusTableGoucima "[^\t]\+" contained skipwhite
 syn match ibusTableGouciDelimiter "BEGIN_GOUCI\|END_GOUCI" contained
 
 hi def link ibusTableDefinitionDelimiter Statement
-hi def link ibusTableDataDelimiter	Statement
-hi def link ibusTableGouciDelimiter	Statement
-hi def link ibusTableHeaderVariable	PreProc
-hi def link ibusTableComment		Comment
-hi def link ibusTableVariable		Identifier
-hi def link ibusTableLocaleName		Identifier
-hi def link ibusTableSetVariable	Operator
-hi def link ibusTableBoolean		Boolean
-hi def link ibusTableString		String
-hi def link ibusTableInputKeys		String
-hi def link ibusTableAimChars		String
-hi def link ibusTableFreq		Number
-hi def link ibusTableInvalidFreq	Error
-hi def link ibusTableGouciCharacter	String
-hi def link ibusTableGoucima		String
+hi def link ibusTableDataDelimiter       Statement
+hi def link ibusTableGouciDelimiter      Statement
+hi def link ibusTableHeaderVariable      PreProc
+hi def link ibusTableComment             Comment
+hi def link ibusTableVariable            Identifier
+hi def link ibusTableLocaleName          Identifier
+hi def link ibusTableSetVariable         Operator
+hi def link ibusTableBoolean             Boolean
+hi def link ibusTableString              String
+hi def link ibusTableInputKeys           String
+hi def link ibusTableAimChars            String
+hi def link ibusTableFreq                Number
+hi def link ibusTableInvalidFreq         Error
+hi def link ibusTableGouciCharacter      String
+hi def link ibusTableGoucima             String
 
 syntax sync fromstart
 
